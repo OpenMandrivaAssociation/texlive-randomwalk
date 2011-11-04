@@ -50,6 +50,7 @@ angles of the steps can be customized in various ways.
 #- source
 %doc %{_texmfdistdir}/source/latex/randomwalk/randomwalk.dtx
 %doc %{_texmfdistdir}/source/latex/randomwalk/randomwalk.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +61,5 @@ angles of the steps can be customized in various ways.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
