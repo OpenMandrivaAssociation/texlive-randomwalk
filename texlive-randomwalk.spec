@@ -1,12 +1,12 @@
-# revision 23924
+# revision 27139
 # category Package
 # catalog-ctan /macros/latex/contrib/randomwalk
-# catalog-date 2011-09-10 11:16:55 +0200
+# catalog-date 2012-06-01 18:19:13 +0200
 # catalog-license lppl
 # catalog-version 0.2
 Name:		texlive-randomwalk
 Version:	0.2
-Release:	2
+Release:	3
 Summary:	Random walks using TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/randomwalk
@@ -22,7 +22,8 @@ Requires(post):	texlive-kpathsea
 %description
 The randomwalk package provides a user command, \RandomWalk, to
 draw random walks with a given number of steps. Lengths and
-angles of the steps can be customized in various ways.
+angles of the steps can be customized in various ways. The
+package uses PGF/TikZ for its graphical output.
 
 %post
     %{_sbindir}/texlive.post
