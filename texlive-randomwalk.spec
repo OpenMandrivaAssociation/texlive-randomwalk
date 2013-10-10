@@ -1,11 +1,11 @@
-# revision 27517
+# revision 28769
 # category Package
 # catalog-ctan /macros/latex/contrib/randomwalk
-# catalog-date 2012-08-24 11:37:59 +0200
+# catalog-date 2013-01-08 14:36:26 +0100
 # catalog-license lppl
-# catalog-version 0.2b
+# catalog-version 0.2c
 Name:		texlive-randomwalk
-Version:	0.2b
+Version:	0.2c
 Release:	1
 Summary:	Random walks using TikZ
 Group:		Publishing
@@ -51,25 +51,3 @@ package uses PGF/TikZ for its graphical output.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Oct 30 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2b-1
-+ Revision: 820800
-- Update to latest release.
-
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-3
-+ Revision: 812814
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 755575
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 719429
-- texlive-randomwalk
-- texlive-randomwalk
-- texlive-randomwalk
-- texlive-randomwalk
-
