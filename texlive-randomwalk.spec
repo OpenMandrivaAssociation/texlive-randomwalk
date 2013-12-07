@@ -6,7 +6,7 @@
 # catalog-version 0.2c
 Name:		texlive-randomwalk
 Version:	0.2c
-Release:	3
+Release:	4
 Summary:	Random walks using TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/randomwalk
