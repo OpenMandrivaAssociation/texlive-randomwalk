@@ -1,12 +1,6 @@
-# revision 28769
-# category Package
-# catalog-ctan /macros/latex/contrib/randomwalk
-# catalog-date 2013-01-08 14:36:26 +0100
-# catalog-license lppl
-# catalog-version 0.2c
 Name:		texlive-randomwalk
-Version:	0.2c
-Release:	9
+Version:	0.5
+Release:	1
 Summary:	Random walks using TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/randomwalk
@@ -35,12 +29,10 @@ package uses PGF/TikZ for its graphical output.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/randomwalk/randomwalk.sty
-%doc %{_texmfdistdir}/doc/latex/randomwalk/README
-%doc %{_texmfdistdir}/doc/latex/randomwalk/randomwalk.pdf
+%{_texmfdistdir}/tex/latex/randomwalk
+%doc %{_texmfdistdir}/doc/latex/randomwalk
 #- source
-%doc %{_texmfdistdir}/source/latex/randomwalk/randomwalk.dtx
-%doc %{_texmfdistdir}/source/latex/randomwalk/randomwalk.ins
+%doc %{_texmfdistdir}/source/latex/randomwalk
 
 #-----------------------------------------------------------------------
 %prep
