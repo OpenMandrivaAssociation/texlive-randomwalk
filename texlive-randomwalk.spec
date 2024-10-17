@@ -3,7 +3,7 @@ Version:	49513
 Release:	2
 Summary:	Random walks using TikZ
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/randomwalk
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/randomwalk
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/randomwalk.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/randomwalk.doc.r%{version}.tar.xz
