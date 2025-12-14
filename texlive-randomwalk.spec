@@ -1,6 +1,6 @@
 Name:		texlive-randomwalk
-Version:	49513
-Release:	2
+Version:	76924
+Release:	1
 Summary:	Random walks using TikZ
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/randomwalk
